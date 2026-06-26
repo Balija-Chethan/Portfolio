@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Chethan | Portfolio - Cloud & Web Developer</title>
+    <meta name="description" content="Professional portfolio of B.Chethan, a Computer Science Engineering student specializing in Web Development, Cloud Computing, and AI applications.">
+    <meta name="keywords" content="B.Chethan, Chethan, Portfolio, Computer Science, Web Developer, Flask, Streamlit, Azure, Python, MITS">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">B.<span>Chethan</span></a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link nav-cta">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-welcome">Welcome to my space</span>
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">B.Chethan</span></h1>
+                    <h2 class="hero-subtitle">
+                        I build <span id="typing-text" class="orange-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-desc">
+                        A passionate Computer Science Engineering undergraduate specializing in designing intelligent web applications, cloud-based architectures, and robust machine learning solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Explore Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="mailto:chethan.b@example.com" class="social-icon" aria-label="Email">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                        <a href="tel:+918688971518" class="social-icon" aria-label="Phone">
+                            <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-circle">
+                            <div class="profile-avatar">
+                                <!-- Tech avatar SVG instead of image placeholder -->
+                                <svg viewBox="0 0 100 100" class="avatar-svg">
+                                    <defs>
+                                        <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#121212" />
+                                            <stop offset="100%" stop-color="#ff5500" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle cx="50" cy="50" r="48" fill="none" stroke="url(#avatarGrad)" stroke-width="2"/>
+                                    <path d="M50 25 A 15 15 0 1 1 50 55 A 15 15 0 1 1 50 25 Z" fill="#121212"/>
+                                    <path d="M20 80 C 20 62, 80 62, 80 80" fill="#121212" stroke="#ff5500" stroke-width="2"/>
+                                    <line x1="35" y1="40" x2="42" y2="40" stroke="#ff5500" stroke-width="2"/>
+                                    <line x1="58" y1="40" x2="65" y2="40" stroke="#ff5500" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="#ff5500" stroke-width="2" fill="none"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                            <span>Azure Cloud</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="#ff5500" stroke-width="2" fill="none"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                            <span>Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section id="about" class="section section-light reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">My Journey & Education</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3>A little about who I am</h3>
+                        <p class="about-text">
+                            I am a Computer Science Engineering student currently pursuing my Bachelor of Technology degree. Driven by a deep curiosity about how software and cloud infrastructure mesh, I enjoy building tools that solve practical problems.
+                        </p>
+                        <p class="about-text">
+                            My expertise spans building web-based tools with Python and modern Javascript to hosting and architecting scalable backend APIs on cloud clouds like Microsoft Azure.
+                        </p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number">8.85</span>
+                                <span class="stat-label">B.Tech CGPA</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Production Apps</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">4+</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-header">
+                            <svg viewBox="0 0 24 24" width="28" height="28" stroke="#ff5500" stroke-width="2" fill="none"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                            <h3>Education</h3>
+                        </div>
+                        <div class="edu-timeline">
+                            <div class="edu-item">
+                                <div class="edu-marker"></div>
+                                <div class="edu-content">
+                                    <span class="edu-duration">2023 &mdash; 2027</span>
+                                    <h4>Bachelor of Technology (B.Tech)</h4>
+                                    <p class="edu-branch">Computer Science Engineering</p>
+                                    <p class="edu-inst">Madanapalle Institute of Technology and Science</p>
+                                    <p class="edu-loc">Andhra Pradesh, India</p>
+                                    <span class="edu-gpa">CGPA: 8.85/10</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section section-alt reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Skills</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1 -->
+                    <div class="skill-category-card">
+                        <div class="cat-header">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="#ff5500" stroke-width="2" fill="none"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                            <h4>Languages</h4>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Python</span> <span class="skill-level-pill">Advanced</span></li>
+                            <li><span>JavaScript</span> <span class="skill-level-pill">Intermediate</span></li>
+                            <li><span>HTML5 & CSS3</span> <span class="skill-level-pill">Advanced</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2 -->
+                    <div class="skill-category-card">
+                        <div class="cat-header">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="#ff5500" stroke-width="2" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                            <h4>Web Frameworks</h4>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Flask</span> <span class="skill-level-pill">Intermediate</span></li>
+                            <li><span>Streamlit</span> <span class="skill-level-pill">Advanced</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div class="skill-category-card">
+                        <div class="cat-header">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="#ff5500" stroke-width="2" fill="none"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                            <h4>Cloud Computing</h4>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>Microsoft Azure</span> <span class="skill-level-pill">Certified</span></li>
+                            <li><span>Azure App Services</span> <span class="skill-level-pill">Familiar</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 4 -->
+                    <div class="skill-category-card">
+                        <div class="cat-header">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="#ff5500" stroke-width="2" fill="none"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                            <h4>Databases</h4>
+                        </div>
+                        <ul class="skills-list">
+                            <li><span>MySQL</span> <span class="skill-level-pill">Intermediate</span></li>
+                            <li><span>MongoDB</span> <span class="skill-level-pill">Familiar</span></li>
+                            <li><span>SQLite</span> <span class="skill-level-pill">Intermediate</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 5 -->
+                    <div class="skill-category-card full-width-card">
+                        <div class="cat-header">
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="#ff5500" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                            <h4>Developer Tools & Workflow</h4>
+                        </div>
+                        <div class="tools-tags">
+                            <span class="tool-tag">Git</span>
+                            <span class="tool-tag">GitHub</span>
+                            <span class="tool-tag">VS Code</span>
+                            <span class="tool-tag">Windows & Linux CLI</span>
+                            <span class="tool-tag">REST APIs</span>
+                            <span class="tool-tag">Object-Oriented Programming (OOP)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section section-light reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Experience</span>
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="experience-timeline">
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-date">Jun 2025 &mdash; Aug 2025</span>
+                                <span class="timeline-role">Web Development Intern</span>
+                                <span class="timeline-org">InternPe</span>
+                            </div>
+                            <div class="timeline-logo">
+                                <span>IP</span>
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="timeline-desc">
+                                Collaborated on agile web development initiatives, concentrating on writing scalable backend functions and interactive browser layouts.
+                            </p>
+                            <ul class="timeline-bullets">
+                                <li>Worked on web development projects involving frontend and backend technologies.</li>
+                                <li>Built responsive and interactive applications using Python and web technologies.</li>
+                                <li>Strengthened knowledge of software development patterns and application user experience design.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section section-alt reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Projects</span>
+                    <h2 class="section-title">Featured Works</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-visual">
+                            <!-- Styled SVG illustration instead of image -->
+                            <svg viewBox="0 0 400 220" class="project-img-svg">
+                                <rect width="400" height="220" fill="#121212" />
+                                <circle cx="200" cy="110" r="60" fill="none" stroke="#ff5500" stroke-width="2" opacity="0.3"/>
+                                <circle cx="200" cy="110" r="40" fill="none" stroke="#ff5500" stroke-width="4"/>
+                                <path d="M 120 110 L 150 90 L 170 130 L 200 60 L 230 150 L 250 100 L 280 110" fill="none" stroke="#ff5500" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <text x="20" y="200" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" opacity="0.8">AUDIO WAVE ANALYSIS</text>
+                            </svg>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-tag-item">Machine Learning</span>
+                                <span class="project-tag-item">Audio</span>
+                            </div>
+                            <h3 class="project-name">Human Emotion Detection from Voice</h3>
+                            <p class="project-desc">
+                                A machine learning web application that processes WAV and MP3 audio files to identify underlying human emotions using advanced feature extraction.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>Scikit-learn</span>
+                                <span>Librosa</span>
+                                <span>Pydub</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-visual">
+                            <svg viewBox="0 0 400 220" class="project-img-svg">
+                                <rect width="400" height="220" fill="#121212" />
+                                <rect x="80" y="50" width="240" height="120" rx="6" fill="none" stroke="#ff5500" stroke-width="2"/>
+                                <line x1="80" y1="85" x2="320" y2="85" stroke="#ff5500" stroke-width="1"/>
+                                <circle cx="105" cy="67" r="5" fill="#ff5500" />
+                                <circle cx="120" cy="67" r="5" fill="#ff5500" opacity="0.5" />
+                                <circle cx="135" cy="67" r="5" fill="#ff5500" opacity="0.3" />
+                                <rect x="100" y="105" width="20" height="20" rx="3" fill="#ff5500" />
+                                <line x1="130" y1="110" x2="280" y2="110" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                                <line x1="130" y1="120" x2="230" y2="120" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                                <text x="20" y="200" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" opacity="0.8">TASK MANAGEMENT</text>
+                            </svg>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-tag-item">Web App</span>
+                                <span class="project-tag-item">Database</span>
+                            </div>
+                            <h3 class="project-name">Student Task Management Web Application</h3>
+                            <p class="project-desc">
+                                A web application that enables students to organize, schedule, and execute assignments, exam schedules, and project timelines.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    GitHub Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section section-light reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Credentials</span>
+                    <h2 class="section-title">Certifications & Licenses</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <!-- Cloud azure cert icon -->
+                            <svg viewBox="0 0 24 24" width="36" height="36" stroke="#ff5500" stroke-width="1.5" fill="none"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Microsoft Azure Fundamentals (AZ-900)</h4>
+                            <p class="cert-issuer">Issued by Microsoft</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <svg viewBox="0 0 24 24" width="36" height="36" stroke="#ff5500" stroke-width="1.5" fill="none"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Oracle Certified Associate</h4>
+                            <p class="cert-issuer">Issued by Oracle</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <svg viewBox="0 0 24 24" width="36" height="36" stroke="#ff5500" stroke-width="1.5" fill="none"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Acquiring Data (Level 1 &mdash; AI Fundamentals)</h4>
+                            <p class="cert-issuer">Issued by Accenture (AI ASCEND)</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <svg viewBox="0 0 24 24" width="36" height="36" stroke="#ff5500" stroke-width="1.5" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        </div>
+                        <div class="cert-content">
+                            <h4>Web Development Fundamentals</h4>
+                            <p class="cert-issuer">Issued by Coursera</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-alt reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Reach Out</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h3>Let's start a conversation</h3>
+                        <p class="contact-intro">
+                            Have an exciting project idea, internship opportunity, or just want to talk about cloud computing and web development? I'm always open to discussing new opportunities.
+                        </p>
+
+                        <div class="contact-info-list">
+                            <div class="contact-info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="#ff5500" stroke-width="2" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="info-content">
+                                    <span>Mail Me</span>
+                                    <a href="mailto:chethan.b@example.com">chethan.b@example.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="#ff5500" stroke-width="2" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="info-content">
+                                    <span>Call Me</span>
+                                    <a href="tel:+918688971518">+91 86889 71518</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="info-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="#ff5500" stroke-width="2" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="info-content">
+                                    <span>Location</span>
+                                    <p>Andhra Pradesh, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="form-name">Full Name</label>
+                                <input type="text" id="form-name" placeholder="Your Name" required>
+                                <span class="error-msg" id="name-error">Please enter your name</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email Address</label>
+                                <input type="email" id="form-email" placeholder="email@example.com" required>
+                                <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Your Message</label>
+                                <textarea id="form-message" rows="5" placeholder="Let's build something together..." required></textarea>
+                                <span class="error-msg" id="message-error">Please enter a message</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                Send Message
+                                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                        <div id="toast" class="toast hidden">Message sent successfully!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="#hero">B.<span>Chethan</span></a>
+                <p>Cloud & Web Development Specialist</p>
+            </div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 B.Chethan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
